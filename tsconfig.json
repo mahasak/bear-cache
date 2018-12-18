@@ -1,6 +1,8 @@
 // tsconfig.json
 {
     "compilerOptions": {
-      "lib": [ "es2015" ]
+      "lib": [ "es2015" ],
+      "declaration": true,
+      "outDir": "./dist",
     }
 }
