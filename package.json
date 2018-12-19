@@ -2,10 +2,15 @@
   "name": "bear-cache",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "parcel build src/index.ts && tsc",
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahasak/bear-cache.git"
   },
   "author": { 
     "name" : "Mahasak Pijittum"
