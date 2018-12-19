@@ -1,6 +1,6 @@
 {
   "name": "bear-cache",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,10 +12,10 @@
     "type": "git",
     "url": "https://github.com/mahasak/bear-cache.git"
   },
-  "author": { 
-    "name" : "Mahasak Pijittum"
-    , "email" : "mahasak@gmail.com"
-    , "url" : "http://mahasak.com/"
+  "author": {
+    "name": "Mahasak Pijittum",
+    "email": "mahasak@gmail.com",
+    "url": "http://mahasak.com/"
   },
   "license": "ISC",
   "devDependencies": {
