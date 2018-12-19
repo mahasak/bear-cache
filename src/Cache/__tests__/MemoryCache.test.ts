@@ -29,6 +29,11 @@ test('MemoryCache type test', async () => {
     expect(size).toEqual(0)
 })
 
+test('Memory cache should return when not found', async () => {
+    let ret = await cache.get("NOT_EXISTS")
+    expect(ret).toBeUndefined()
+})
+
 test('MemoryCache should set and maintain a valid value', async () => {
     let sizeBefore = await cache.size()
     expect(sizeBefore).toEqual(0)
